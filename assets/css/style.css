@@ -1,0 +1,50 @@
+* {
+	font-family: "Source Sans Pro", sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #252525;
+}
+
+body {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.main {
+	border-radius: 1rem;
+	border: 1px solid #252525;
+	padding: 1rem;
+	margin: 1rem;
+	width: 500px;
+}
+
+.main-title {
+	text-align: center;
+	border-bottom: 1px solid #252525;
+}
+
+.main-title > h2 {
+	margin-bottom: 1rem;
+}
+
+.main-content {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.main-output {
+	margin-top: 1rem;
+}
+.main-output > textarea {
+	width: 100%;
+	font-size: 12px;
+	padding: 1rem;
+	font-family: "Courier Prime", monospace;
+	border-radius: 1rem;
+	overflow: auto;
+	height: 250px;
+}
